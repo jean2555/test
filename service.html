@@ -1,0 +1,1064 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EduHome - Education Is About Academic Excellence</title>
+
+    <!-- 
+    - favicon
+  -->
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml" />
+
+    <!-- 
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!-- 
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Urbanist:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- 
+    - preload images
+  -->
+    <link rel="preload" as="image" href="./assets/images/hero-banner.png" />
+    <link
+      rel="preload"
+      as="image"
+      href="./assets/images/hero-abs-1.png"
+      media="min-width(768px)"
+    />
+    <link
+      rel="preload"
+      as="image"
+      href="./assets/images/hero-abs-2.png"
+      media="min-width(768px)"
+    />
+  </head>
+
+  <body id="top">
+    <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+      <h1>
+        <a href="#" class="logo">International Hope Group</a>
+      </h1>
+
+      <nav class="navbar" data-navbar>
+        <div class="navbar-top">
+          <a href="#" class="logo">International hope Group</a>
+
+          <button
+            class="nav-close-btn"
+            aria-label="Close menu"
+            data-nav-toggler
+          >
+            <ion-icon name="close-outline"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <a href="./index.php" class="navbar-link" data-nav-toggler
+              >Accueil</a
+            >
+          </li>
+
+          <li class="navbar-item">
+            <a href="./index.php" class="navbar-link" data-nav-toggler>A propos</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="./service.html" class="navbar-link" data-nav-toggler
+              >Service</a
+            >
+          </li>
+
+          <li class="navbar-item">
+            <a href="./contact.html" class="navbar-link" data-nav-toggler
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <button
+          class="header-action-btn"
+          aria-label="Open search"
+          data-search-toggler
+        >
+          <ion-icon name="search-outline"></ion-icon>
+        </button>
+
+        <a href="#" class="header-action-btn login-btn">
+          <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+
+          <span class="span">Se connecter / S'inscrire</span>
+        </a>
+
+        <button
+          class="header-action-btn nav-open-btn"
+          aria-label="Open menu"
+          data-nav-toggler
+        >
+          <ion-icon name="menu-outline"></ion-icon>
+        </button>
+      </div>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+    </div>
+  </header>
+
+    <!-- 
+    - #SEARCH BOX
+  -->
+
+    <div class="search-container" data-search-box>
+      <div class="container">
+        <button
+          class="search-close-btn"
+          aria-label="Close search"
+          data-search-toggler
+        >
+          <ion-icon name="close-outline"></ion-icon>
+        </button>
+
+        <div class="search-wrapper">
+          <input
+            type="search"
+            name="search"
+            placeholder="Search Here..."
+            aria-label="Search"
+            class="search-field"
+          />
+
+          <button class="search-submit" aria-label="Submit" data-search-toggler>
+            <ion-icon name="search-outline"></ion-icon>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <main>
+      <article>
+        <!-- 
+        - #HERO
+      -->
+
+        <!-- 
+        - #CATEGORY
+      -->
+
+
+        <!-- 
+        - #ABOUT
+      -->
+
+        <!-- 
+        - #COURSE
+      -->
+
+        <section
+          class="section course"
+          id="courses"
+          aria-label="course"
+          style="background-image: url('./assets/images/course-bg.jpg')"
+        >
+          <div class="container">
+            <p class="section-subtitle">Nos Services pour votre satisfaction </p>
+
+            <h2 class="h2 section-title">Recommandez pour vous</h2>
+
+            <ul class="grid-list">
+              <li>
+                <div class="course-card">
+                  <figure class="card-banner">
+                    <img
+                      src="./assets/images/course-1.jpg"
+                      width="370"
+                      height="270"
+                      loading="lazy"
+                      alt="Competitive Strategy law for all students"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div class="card-actions">
+                    <span class="badge">00</span>
+
+                    <button
+                      class="whishlist-btn"
+                      aria-label="Add to whishlist"
+                      data-whish-btn
+                    >
+                      <ion-icon name="heart"></ion-icon>
+                    </button>
+                  </div>
+
+                  <div class="card-content">
+                    <ul class="card-meta-list">
+                      <li class="card-meta-item">
+                        <ion-icon
+                          name="reader-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+
+                        <span class="card-meta-text"></span>
+                      </li>
+
+                      <li class="card-meta-item">
+                        <ion-icon
+                          name="time-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+
+                        <time datetime="PT18H15M44S" class="card-meta-text"
+                          >2mn</time
+                        >
+                      </li>
+                    </ul>
+
+                    <h3 class="h3">
+                      <a href="#" class="card-title"
+                        >L’analyse et la conquête du marché
+                      </a>
+                    </h3>
+
+                    <div class="card-footer">
+                      <div class="card-meta-item">
+                        <ion-icon
+                          name="people-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+
+                        <span class="card-meta-text">Certifié</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="course-card">
+                  <figure class="card-banner">
+                    <img
+                      src="./assets/images/course-2.jpg"
+                      width="370"
+                      height="270"
+                      loading="lazy"
+                      alt="Machine Learning A-Z: Hands-On Python and java"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div class="card-actions">
+                    <span class="badge">01</span>
+
+                    <button
+                      class="whishlist-btn"
+                      aria-label="Add to whishlist"
+                      data-whish-btn
+                    >
+                      <ion-icon name="heart"></ion-icon>
+                    </button>
+                  </div>
+
+                  <div class="card-content">
+                    <ul class="card-meta-list">
+                      <li class="card-meta-item">
+                        <ion-icon
+                          name="reader-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+
+                        <span class="card-meta-text"></span>
+                      </li>
+
+                      <li class="card-meta-item">
+                        <ion-icon
+                          name="time-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+
+                        <time
+                          datetime="PT18H15M44S"
+                          class="card-meta-text"
+                        ></time>
+                      </li>
+                    </ul>
+
+                    <h3 class="h3">
+                      <a href="#" class="card-title"
+                        >Le développement des ventes
+                      </a>
+                    </h3>
+
+                    <div class="rating-wrapper">
+                      <span class="rating-text">
+                      </span>
+                    </div>
+
+                    <div class="card-footer">
+                      <div class="card-meta-item">
+                        <ion-icon
+                          name="people-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+
+                        <span class="card-meta-text">Certifié</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="course-card">
+                  <figure class="card-banner">
+                    <img
+                      src="./assets/images/course-3.jpg"
+                      width="370"
+                      height="270"
+                      loading="lazy"
+                      alt="Achieving Advanced in Insights with Big"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div class="card-actions">
+                    <span class="badge">02</span>
+
+                    <button
+                      class="whishlist-btn"
+                      aria-label="Add to whishlist"
+                      data-whish-btn
+                    >
+                      <ion-icon name="heart"></ion-icon>
+                    </button>
+                  </div>
+
+                  <div class="card-content">
+                    <ul class="card-meta-list">
+                      <li class="card-meta-item">
+                        <ion-icon
+                          name="reader-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+
+                        <span class="card-meta-text"></span>
+                      </li>
+
+                      <li class="card-meta-item">
+                        <ion-icon
+                          name="time-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+
+                        <time
+                          datetime="PT18H15M44S"
+                          class="card-meta-text"
+                        ></time>
+                      </li>
+                    </ul>
+
+                    <h3 class="h3">
+                      <a href="#" class="card-title"
+                        >Séjour linguistique</a
+                      >
+                    </h3>
+
+                    <div class="rating-wrapper">
+                      <span class="rating-text"></span>
+                    </div>
+
+                    <div class="card-footer">
+                      <div class="card-meta-item">
+                        <ion-icon
+                          name="people-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+
+                        <span class="card-meta-text">Certifié</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="course-card">
+                  <figure class="card-banner">
+                    <img
+                      src="./assets/images/course-4.jpg"
+                      width="370"
+                      height="270"
+                      loading="lazy"
+                      alt="Education Makes A Person A Responsible Citizen"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div class="card-actions">
+                    <span class="badge">03</span>
+
+                    <button
+                      class="whishlist-btn"
+                      aria-label="Add to whishlist"
+                      data-whish-btn
+                    >
+                      <ion-icon name="heart"></ion-icon>
+                    </button>
+                  </div>
+
+                  <div class="card-content">
+                    <ul class="card-meta-list">
+                      <li class="card-meta-item">
+                        <ion-icon
+                          name="reader-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+
+                        <span class="card-meta-text"></span>
+                      </li>
+
+                      <li class="card-meta-item">
+                        <ion-icon
+                          name="time-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+
+                        <time
+                          datetime="PT18H15M44S"
+                          class="card-meta-text"
+                        ></time>
+                      </li>
+                    </ul>
+
+                    <h3 class="h3">
+                      <a href="#" class="card-title"
+                        >Le conseil d’orientation</a
+                      >
+                    </h3>
+
+                    <div class="rating-wrapper">
+                      <span class="rating-text"></span>
+                    </div>
+
+                    <div class="card-footer">
+                      <div class="card-meta-item">
+                        <ion-icon
+                          name="people-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+
+                        <span class="card-meta-text">Certifié</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="course-card">
+                  <figure class="card-banner">
+                    <img
+                      src="./assets/images/course-5.jpg"
+                      width="370"
+                      height="270"
+                      loading="lazy"
+                      alt="Building A Better World One Student At A Time"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div class="card-actions">
+                    <span class="badge">04</span>
+
+                    <button
+                      class="whishlist-btn"
+                      aria-label="Add to whishlist"
+                      data-whish-btn
+                    >
+                      <ion-icon name="heart"></ion-icon>
+                    </button>
+                  </div>
+
+                  <div class="card-content">
+                    <ul class="card-meta-list">
+                      <li class="card-meta-item">
+                        <ion-icon
+                          name="reader-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+
+                        <span class="card-meta-text"></span>
+                      </li>
+
+                      <li class="card-meta-item">
+                        <ion-icon
+                          name="time-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+
+                        <time
+                          datetime="PT18H15M44S"
+                          class="card-meta-text"
+                        ></time>
+                      </li>
+                    </ul>
+
+                    <h3 class="h3">
+                      <a href="#" class="card-title"
+                        >Assistance pour l’obtention du VISA</a
+                      >
+                    </h3>
+
+                    <div class="rating-wrapper">
+                      <span class="rating-text"></span>
+                    </div>
+
+                    <div class="card-footer">
+                      <div class="card-meta-item">
+                        <ion-icon
+                          name="people-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+
+                        <span class="card-meta-text">Certifié</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="course-card">
+                  <figure class="card-banner">
+                    <img
+                      src="./assets/images/course-6.jpg"
+                      width="370"
+                      height="270"
+                      loading="lazy"
+                      alt="Education is About Forming Faithful Disciples"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div class="card-actions">
+                    <span class="badge">05</span>
+
+                    <button
+                      class="whishlist-btn"
+                      aria-label="Add to whishlist"
+                      data-whish-btn
+                    >
+                      <ion-icon name="heart"></ion-icon>
+                    </button>
+                  </div>
+
+                  <div class="card-content">
+                    <ul class="card-meta-list">
+                      <li class="card-meta-item">
+                        <ion-icon
+                          name="reader-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+
+                        <span class="card-meta-text"></span>
+                      </li>
+
+                      <li class="card-meta-item">
+                        <ion-icon
+                          name="time-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+
+                        <time
+                          datetime="PT18H15M44S"
+                          class="card-meta-text"
+                        ></time>
+                      </li>
+                    </ul>
+
+                    <h3 class="h3">
+                      <a href="#" class="card-title"
+                        >Le choix de l’université</a
+                      >
+                    </h3>
+
+                    <div class="rating-wrapper">
+                      <span class="rating-text"></span>
+                    </div>
+
+                    <div class="card-footer">
+                      <div class="card-meta-item">
+                        <ion-icon
+                          name="people-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+
+                        <span class="card-meta-text">Certifié</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+
+            <a href="https://wa.me/+22655121278" class="btn btn-primary">
+              <span class="span">Demande spécifique</span>
+
+              <ion-icon
+                name="arrow-forward-outline"
+                aria-hidden="true"
+              ></ion-icon>
+            </a>
+          </div>
+        </section>
+
+        <!-- 
+        - #CTA
+      -->
+
+        <section
+          class="section cta"
+          aria-label="workshop"
+          style="background-image: url('./assets/images/cta-bg.png')"
+        >
+          <div class="container">
+            <figure class="cta-banner">
+              <img
+                src="./assets/images/cta-banner.jpg"
+                width="580"
+                height="380"
+                loading="lazy"
+                alt="cta banner"
+                class="img-cover"
+              />
+            </figure>
+
+            <div class="cta-content">
+              <h2 class="h2 section-title">
+                Passez un appel avec notre support
+              </h2>
+
+              <p class="section-text">
+                Un support à votre écoute 24/24, à l'écoute de vos besoins. Pour
+                information supplémentaire n'hésitez à consulter notre section.
+              </p>
+
+              <a href="#" class="btn btn-secondary">
+                <span class="span">Passez un appel</span>
+
+                <ion-icon
+                  name="arrow-forward-outline"
+                  aria-hidden="true"
+                ></ion-icon>
+              </a>
+            </div>
+          </div>
+        </section>
+
+        <!-- 
+        - #EVENT
+      -->
+
+       
+      <section class="section event" id="event" aria-label="event">
+        <div class="container">
+          <p class="section-subtitle">Evènements</p>
+
+          <h2 class="h2 section-title">Acteur du changement</h2>
+
+          <ul class="grid-list">
+            <li>
+              <div class="event-card">
+                <figure class="card-banner">
+                  <img
+                    src="./assets/images/event-1.jpeg"
+                    width="370"
+                    height="250"
+                    loading="lazy"
+                    alt="Innovation & Technological Entrepreneurship Team"
+                    class="img-cover"
+                  />
+                </figure>
+
+                <time class="badge" datetime="2022-12-04">2021</time>
+
+                <div class="card-content">
+                  <address class="card-address">
+                    <ion-icon
+                      name="location-outline"
+                      aria-hidden="true"
+                    ></ion-icon>
+
+                    <span class="span">Palm Club, Casablanca, Maroc</span>
+                  </address>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title"
+                      >Lancement de la journée étudiante</a
+                    >
+                  </h3>
+
+                  <a href="#news" class="btn-link">
+                    <span class="span">Rester informer</span>
+
+                    <ion-icon
+                      name="arrow-forward-outline"
+                      aria-hidden="true"
+                    ></ion-icon>
+                  </a>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="event-card">
+                <figure class="card-banner">
+                  <img
+                    src="./assets/images/event-2.jpeg"
+                    width="370"
+                    height="250"
+                    loading="lazy"
+                    alt="Virtual Spring Part-time Jobs Fair for Student"
+                    class="img-cover"
+                  />
+                </figure>
+
+                <time class="badge" datetime="2022-10-30">2021</time>
+
+                <div class="card-content">
+                  <address class="card-address">
+                    <ion-icon
+                      name="location-outline"
+                      aria-hidden="true"
+                    ></ion-icon>
+
+                    <span class="span">Maroc</span>
+                  </address>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title"
+                      >Forum étudiant</a
+                    >
+                  </h3>
+
+                  <a href="#news" class="btn-link">
+                    <span class="span">Rester informer</span>
+
+                    <ion-icon
+                      name="arrow-forward-outline"
+                      aria-hidden="true"
+                    ></ion-icon>
+                  </a>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="event-card">
+                <figure class="card-banner">
+                  <img
+                    src="./assets/images/event-3.jpg"
+                    width="370"
+                    height="250"
+                    loading="lazy"
+                    alt="Explorations of Regional Chief Executive Network"
+                    class="img-cover"
+                  />
+                </figure>
+
+                <time class="badge" datetime="2022-09-18">2021</time>
+
+                <div class="card-content">
+                  <address class="card-address">
+                    <ion-icon
+                      name="location-outline"
+                      aria-hidden="true"
+                    ></ion-icon>
+
+                    <span class="span">Maroc</span>
+                  </address>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title"
+                      >Objectif trajectoire étudiant</a
+                    >
+                  </h3>
+
+                  <a href="#news" class="btn-link">
+                    <span class="span">Rester informer</span>
+
+                    <ion-icon
+                      name="arrow-forward-outline"
+                      aria-hidden="true"
+                    ></ion-icon>
+                  </a>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+        <!-- 
+        - #NEWSLETTER
+      -->
+
+        <section
+          class="section newsletter"
+          id="news"
+          aria-label="newsletter"
+          style="background-image: url('./assets/images/newsletter-bg.jpg')"
+        >
+          <div class="container">
+            <p class="section-subtitle">
+              Recevoir des notifications sur toutes nos offres
+            </p>
+
+            <h2 class="h2 section-title">Les dernières offres du moment</h2>
+
+            <form action=""  class="newsletter-form" onsubmit="sendEmail(); reset(); return false;">
+              <div class="input-wrapper">
+                <input
+                  type="email"
+                  name="email_address"
+                  aria-label="email"
+                  placeholder="Entrer votre adresse mail
+"
+                  required
+                  class="email-field"
+                />
+
+                <ion-icon
+                  name="mail-open-outline"
+                  aria-hidden="true"
+                ></ion-icon>
+              </div>
+
+              <button type="submit" class="btn btn-primary">
+                <span class="span">S'inscrire</span>
+
+                <ion-icon
+                  name="arrow-forward-outline"
+                  aria-hidden="true"
+                ></ion-icon>
+              </button>
+            </form>
+          </div>
+        </section>
+      </article>
+    </main>
+
+    <!-- 
+    - #FOOTER
+  -->
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-top">
+          <div class="footer-brand">
+            <a href="#top" class="logo">International Hope Group</a>
+
+            <p class="section-text">
+              Grâce à son réseau de partenaires, elle assure à ses clients des
+              prestations de qualité fourni par une équipe aimable et dévouée,
+              dans des délais très courts et à des prix défiants toutes
+              concurrences.
+            </p>
+
+            <ul class="social-list">
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-twitter"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-linkedin"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-pinterest"></ion-icon>
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <ul class="footer-list">
+            <li>
+              <p class="footer-list-title">Explorer</p>
+            </li>
+
+            <li>
+              <a href="./contact.html" class="footer-link">
+                <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+
+                <span class="span">A propos</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="#event" class="footer-link">
+                <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+
+                <span class="span">Evènement à venir</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">
+                <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+
+                <span class="span">Nouveauté</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">
+                <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+
+                <span class="span">FAQ Question</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">
+                <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+
+                <span class="span">Politique de confidentialité</span>
+              </a>
+            </li>
+          </ul>
+
+          <ul class="footer-list">
+            <li>
+              <p class="footer-list-title">Liens rapides</p>
+            </li>
+
+            <li>
+              <a href="./contact.html" class="footer-link">
+                <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+
+                <span class="span">Contact</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://calendly.com/internationalhopegroup/prise-de-rendez-vous" class="footer-link">
+                <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+
+                <span class="span">Rendez-vous </span>
+              </a>
+            </li>
+
+        
+
+            <li>
+              <a href="./service.html" class="footer-link">
+                <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+
+                <span class="span">Services</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">
+                <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+
+                <span class="span">Potique de remboursement</span>
+              </a>
+            </li>
+          </ul>
+
+          <ul class="footer-list">
+            <li>
+              <p class="footer-list-title">Contact Info</p>
+            </li>
+
+            <li class="footer-item">
+              <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+
+              <address class="footer-link">Casablanca, Maroc</address>
+            </li>
+
+            <li class="footer-item">
+              <ion-icon name="call" aria-hidden="true"></ion-icon>
+
+              <a href="tel:+13647657839" class="footer-link">numéro 1</a>
+            </li>
+
+            <li class="footer-item">
+              <ion-icon name="call" aria-hidden="true"></ion-icon>
+
+              <a href="tel:+13647657840" class="footer-link">Numéro 2</a>
+            </li>
+
+            <li class="footer-item">
+              <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+
+              <a href="mailto:contact@eduhome.com" class="footer-link"
+                >support@internationalhopegroup.org</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <!-- 
+    - #BACK TO TOP
+  -->
+
+    <a
+      href="#top"
+      class="back-top-btn"
+      aria-label="Back to top"
+      data-back-top-btn
+    >
+      <ion-icon name="arrow-up"></ion-icon>
+    </a>
+
+    <!-- 
+    - custom js link
+  -->
+    <script src="./assets/js/script.js" defer></script>
+
+    <!-- 
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+
+
+  </body>
+</html>
